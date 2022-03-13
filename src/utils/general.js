@@ -88,7 +88,7 @@ const isLastDeclarationCompleted = text => {
 
 // eslint-disable-next-line no-return-assign
 const wrapSelector = content => `.selector${(count += 1)} {${content}}\n`
-const wrapKeyframes = content => `@keyframes {${content}}\n`
+const wrapKeyframes = content => `@keyframes key-frames {${content}}\n`
 
 /**
  * The reason we put a \s before .* in the last part of the regex is to make sure we don't
